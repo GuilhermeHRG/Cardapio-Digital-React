@@ -1,0 +1,72 @@
+.menuOptionsLanches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-family: var(--body-font);
+    color: var(--white);
+    padding: 50px;
+    gap: 50px;
+    width: auto;
+    height: 100%;
+    background-color: var(--red);
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.selectedOptionLanches {
+    background-color: #254c9a;
+  
+    padding: 10px;
+    border-radius: 8px;
+    margin: 16px;
+    scale: 1.1;
+}
+
+.adicionaisLanches {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--h4-font-size);
+    align-items: center;
+    margin: 25px;
+    text-align: center;
+}
+
+.checkboxLanches {
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+
+input[type="checkbox"].checkboxLanches {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-right: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="checkbox"].checkboxLanches:checked {
+    background-color: #49aa36;
+    border-color: #ffffff;
+    overflow: hidden;
+}
+
+input[type="checkbox"].checkboxLanches:checked::before {
+    content: "\2714"; /* código unicode para um checkmark ✓ */
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+
+.gridContainerLanches {
+    display: flex;
+}

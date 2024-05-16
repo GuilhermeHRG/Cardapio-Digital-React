@@ -1,0 +1,92 @@
+.containerMenuMesa{
+    width: 100%;
+    height: 81.1vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.mainMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--body-font);
+    background-color: var(--red);
+    height: 100%;
+    width: 50%;
+    gap: 50px;
+    padding: 10px;
+    font-size: var(--h3-font-size);
+}
+.btnMenu {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly; 
+    padding: 15px;
+    width: 60%;
+    height: 20%;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+    font-size: var(--h3-font-size);
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+.mainMesa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 50%;
+    height: 100%;
+    background-image: url(../../../assets/bg-table.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    
+}
+.conteinerMesa{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.237);
+    backdrop-filter: blur(3px);
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-image: url(../assets/logoTipo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    object-fit: cover;
+}
+.numeroMesa{
+    width: 55%;
+    height: auto;
+    text-wrap: wrap;
+    text-align: center;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6.5rem;
+    background-color:rgba(255, 255, 255, 0.803);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: var(--h1-font-size);
+    font-weight: bold;
+    font-family: var(--body-font);
+    text-transform: uppercase;
+}

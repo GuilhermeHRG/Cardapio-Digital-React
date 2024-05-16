@@ -1,0 +1,28 @@
+/* FIRST MOBILE */
+.headerContainer {
+    display: flex;
+    background-color: var(--red);
+    height: 8rem;
+    color: var(--white);
+}
+.headerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.img{
+    width: 50%;
+    height: 6rem;
+    margin: 10px;
+    background-image: url(../assets/logoTipo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    object-fit: cover;
+}
+.mainHeader{
+    margin: 0;
+}
+
+
